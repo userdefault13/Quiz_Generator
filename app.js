@@ -1,29 +1,44 @@
 // Define quiz questions
 const questions = [
 	{
-		question: "What is the capital of Italy?",
-		choices: ["Rome", "Milan", "Naples", "Florence"],
+		question: "What is the difference between let and var in JavaScript?",
+		choices: ["let has block scope and var has function scope",
+		"let has function scope and var has block scope",
+		"let is used for declaring constants and var is used for variables",
+		"there is no difference, they can be used interchangeably"],
 		answer: 0
 	},
 	{
-		question: "What is the highest mountain in Africa?",
-		choices: ["Mount Everest", "Kilimanjaro", "Mount Fuji", "Mount Olympus"],
-		answer: 1
-	},
-	{
-		question: "Who invented the telephone?",
-		choices: ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Albert Einstein"],
-		answer: 0
-	},
-	{
-		question: "What is the largest country in the world by area?",
-		choices: ["Russia", "Canada", "China", "United States"],
-		answer: 0
-	},
-	{
-		question: "What is the smallest country in the world by area?",
-		choices: ["Monaco", "Nauru", "Tuvalu", "Vatican City"],
+		question: "What is the event loop in JavaScript?",
+		choices: ["a data structure used for asynchronous programming",
+		"a loop that runs continuously in the background of a web page",
+		"a way to handle user input events in JavaScript",
+		"a mechanism that helps JavaScript manage asynchronous operations"],
 		answer: 3
+	},
+	{
+		question: "What is a closure in JavaScript?",
+		choices: ["a way to hide implementation details of a function",
+		"a data structure used to store multiple values",
+		"a way to create private variables and functions in JavaScript",
+		"a mechanism used to manipulate the DOM in JavaScript"],
+		answer: 2
+	},
+	{
+		question: "What is a higher-order function in JavaScript?",
+		choices: ["a function that takes one or more functions as arguments",
+		"a function that always returns a value",
+		"a function that is called multiple times in a program",
+		"a function that takes one or more arrays as arguments"],
+		answer: 0
+	},
+	{
+		question: "What is the purpose of the 'use strict' statement in JavaScript?",
+		choices: [ "to enforce stricter parsing and error handling in JavaScript",
+		"to enable debugging features in JavaScript",
+		"to allow the use of non-standard JavaScript features",
+		"to improve performance in JavaScript"],
+		answer: 0
 	}
 ];
 
