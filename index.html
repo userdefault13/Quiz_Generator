@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Coding Quiz Challenge</title>
+		<link rel="stylesheet" href="./styles/styles.css">
+	</head>
+	<body>
+		<div id="introContainer">
+			<h1>Coding Quiz Challenge</h1>
+			<p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your timer by 10 seconds!</p>
+			<button id="startButton">Start Quiz</button>
+		</div>
+		<div id="quizContainer" class="hidden">
+			<h2 id="question"></h2>
+			<ul id="choices"></ul>
+			<p>Time remaining: <span id="timer">60</span></p>
+		</div>
+		<div id="gameOverContainer" class="hidden">
+			<h2>Game Over</h2>
+			<p>Your score is <span id="score"></span>.</p>
+			<form id="highScoreForm">
+				<label for="initials">Enter your initials:</label>
+				<input type="text" id="initials">
+				<button id="saveScore">Save Score</button>
+			</form>
+		</div>
+		<div id="highScoresContainer" class="hidden">
+			<h2>High Scores</h2>
+			<table>
+				<thead>
+				<tr>
+					<th>Initials</th>
+					<th>Score</th>
+				</tr>
+				</thead>
+				<tbody id="high-scores"></tbody>
+			</table>
+			<button id="goBackButton">Try Again</button>
+			<button id="clearHighScoresButton">Clear High Scores</button>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
