@@ -2,6 +2,10 @@
 # Quiz Generator
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+
+https://userdefault13.github.io/Quiz_Generator/
+
+
 ## Description
 This is a simple quiz app that allows users to test their knowledge on various topics. It presents a series of multiple-choice questions to the user and provides feedback on the correctness of their answers. The app is built using HTML, CSS, and JavaScript.
 
